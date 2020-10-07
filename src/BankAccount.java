@@ -44,18 +44,23 @@ public class BankAccount {
 		else {System.out.println("Insufficient Funds to support withdrawal");}
 	}
 /** gets the current balance of this bank account
- * @return the current balance
  */
 	
 	public double getBalance() 
 	{
-		double calcInterest; }
-	
-	
-		public double BankAccount2(double amount,double intPct)
-		{
-			balance = amount;
-			double calcInterest = intPct;
 		return balance;
 	}
-}
+	
+	public void calcInterest() {
+		
+		 balance = 300;
+		double intPct = .05;
+		
+	balance = balance + (intPct*balance);
+		
+	}}
+	
+		
+		
+		
+
